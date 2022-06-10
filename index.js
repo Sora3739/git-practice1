@@ -19,7 +19,7 @@ function addTask(title) {
 
     // やることのタイトルを設定(このままだと、すべてのタイトルがHello Worldになってしまう！)
    
-    task.title =document.getElementById("todo-title-filed").value;
+    task.title =document.getElementById("todo-list-form").value;
 
     // 以降は無視して良い
     tasks.push(task);
